@@ -1,16 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-<?import javafx.scene.control.Button?>
-<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="com.example.perfectpaws.HelloController">
-    <padding>
-        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
-    </padding>
-
-    <Label fx:id="welcomeText"/>
-    <Button text="Hello!" onAction="#onHelloButtonClick"/>
-</VBox>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="481.0" prefWidth="648.0" style="-fx-background-color: #FFA07A;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutX="139.0" layoutY="161.0" prefHeight="284.0" prefWidth="369.0" style="-fx-background-color: #90EE90;">
+         <children>
+            <AnchorPane layoutX="13.0" layoutY="38.0" prefHeight="231.0" prefWidth="344.0" style="-fx-background-color: #FFFFF0;">
+               <children>
+                  <Text layoutX="42.0" layoutY="32.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username">
+                     <font>
+                        <Font name="Forte" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="41.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password">
+                     <font>
+                        <Font name="Forte" size="20.0" />
+                     </font>
+                  </Text>
+                  <TextField layoutX="42.0" layoutY="44.0" prefHeight="25.0" prefWidth="207.0" promptText="Username" style="-fx-border-color: #FFA07A;" />
+                  <PasswordField layoutX="42.0" layoutY="116.0" prefHeight="25.0" prefWidth="207.0" promptText="Password" style="-fx-border-color: #FFA07A;" />
+                  <Text layoutX="276.0" layoutY="201.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Admin" />
+                  <Text layoutX="83.0" layoutY="223.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Not a user? Sign up here!">
+                     <font>
+                        <Font name="Comic Sans MS" size="15.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+            <Text layoutX="158.0" layoutY="26.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Login">
+               <font>
+                  <Font name="Forte" size="24.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="186.0" layoutY="26.0" prefHeight="62.0" prefWidth="276.0" style="-fx-background-color: #FFFFF0; -fx-border-color: #90EE90; -fx-border-width: 4;">
+         <children>
+            <Text layoutX="70.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Perfect Paws">
+               <font>
+                  <Font name="Forte" size="25.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <Text layoutX="185.0" layoutY="133.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The perfect place to adopt a pet!">
+         <font>
+            <Font name="Forte" size="20.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
