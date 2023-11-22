@@ -9,24 +9,26 @@ import javafx.scene.control.TextField;
 public class HelloController {
 
     @FXML
+    private CheckBox checkBox;
+
+    @FXML
     private PasswordField passwordHidden;
 
     @FXML
     private TextField passwordVisable;
 
     @FXML
-    private CheckBox checkBox;
-    @FXML
     void showPassword(ActionEvent event) {
-        if (checkBox.isSelected()){
-            passwordVisable.setText(passwordHidden.getText());
-            passwordVisable.setVisible(true);
-            passwordHidden.setVisible(false);
-            return;
-        }
-        passwordHidden.setText(passwordVisable.getText());
-        passwordHidden.setVisible(true);
-        passwordVisable.setVisible(false);
+            if (checkBox.isSelected()){
+                passwordVisable.setText(passwordHidden.getText());
+                passwordVisable.setVisible(true);
+                passwordHidden.setVisible(false);
+                return;
+            }
+            passwordHidden.setText(passwordVisable.getText());
+            passwordHidden.setVisible(true);
+            passwordVisable.setVisible(false);
+
 
     }
 

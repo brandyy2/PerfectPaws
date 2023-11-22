@@ -9,7 +9,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="481.0" prefWidth="648.0" style="-fx-background-color: #FFA07A;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="481.0" prefWidth="648.0" style="-fx-background-color: #FFA07A;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.perfectpaws.HelloController">
    <children>
       <AnchorPane layoutX="139.0" layoutY="161.0" prefHeight="284.0" prefWidth="369.0" style="-fx-background-color: #90EE90;">
          <children>
@@ -28,7 +28,7 @@
                      </font>
                   </Text>
                   <Button layoutX="249.0" layoutY="157.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="27.0" prefWidth="86.0" text="Log in" />
-                  <CheckBox fx:id="checkBox" layoutX="234.0" layoutY="123.0" mnemonicParsing="false" onAction="#showPasswod" text="Show Password">
+                  <CheckBox fx:id="checkBox" layoutX="234.0" layoutY="123.0" mnemonicParsing="false" onAction="#showPassword" text="Show Password">
                      <font>
                         <Font size="11.0" />
                      </font>
