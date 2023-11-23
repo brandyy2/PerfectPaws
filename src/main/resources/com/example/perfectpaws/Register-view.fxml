@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="481.0" prefWidth="648.0" style="-fx-background-color: #FFA07A;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.perfectpaws.RegisterController">
+   <children>
+      <AnchorPane layoutX="186.0" layoutY="26.0" prefHeight="62.0" prefWidth="276.0" style="-fx-background-color: #FFFFF0; -fx-border-color: #90EE90; -fx-border-width: 4;">
+         <children>
+            <Text layoutX="55.0" layoutY="43.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Perfect Paws">
+               <font>
+                  <Font name="Kristen ITC" size="25.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="27.0" layoutY="137.0" prefHeight="307.0" prefWidth="601.0" style="-fx-background-color: #90EE90;">
+         <children>
+            <AnchorPane layoutX="7.0" layoutY="32.0" prefHeight="265.0" prefWidth="587.0" style="-fx-background-color: #FFFFF0;">
+               <children>
+                  <Text layoutX="11.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="First Name">
+                     <font>
+                        <Font name="Comic Sans MS" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="14.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Create Username">
+                     <font>
+                        <Font name="Comic Sans MS" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="266.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Create Password">
+                     <font>
+                        <Font name="Comic Sans MS" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="14.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Last Name">
+                     <font>
+                        <Font name="Comic Sans MS" size="20.0" />
+                     </font>
+                  </Text>
+                  <TextField fx:id="firstName" layoutX="14.0" layoutY="38.0" prefHeight="25.0" prefWidth="183.0" promptText="First Name" />
+                  <TextField fx:id="lastName" layoutX="14.0" layoutY="106.0" prefHeight="25.0" prefWidth="183.0" promptText="Last Name" />
+                  <TextField fx:id="createUsername" layoutX="14.0" layoutY="175.0" prefHeight="25.0" prefWidth="183.0" promptText="Username" />
+                  <TextField fx:id="createPassword" layoutX="266.0" layoutY="74.0" prefHeight="25.0" prefWidth="183.0" promptText="Password" />
+                  <TextField layoutX="266.0" layoutY="119.0" prefHeight="25.0" prefWidth="183.0" promptText="Password" />
+                  <Text layoutX="265.0" layoutY="166.0" strokeType="OUTSIDE" strokeWidth="0.0" text="• Must contain 6 characters">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="265.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="• Passwords must match">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Text>
+                  <Button layoutX="475.0" layoutY="223.0" mnemonicParsing="false" onMouseClicked="#createAccount" text="Create Account" />
+                  <Button layoutX="21.0" layoutY="223.0" mnemonicParsing="false" text="Back to login" />
+               </children>
+            </AnchorPane>
+            <Text layoutX="265.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Login">
+               <font>
+                  <Font name="Comic Sans MS" size="24.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <Text layoutX="164.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The perfect place to adopt a pet!">
+         <font>
+            <Font name="Kristen ITC" size="20.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
