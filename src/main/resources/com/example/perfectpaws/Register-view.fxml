@@ -61,7 +61,7 @@
                   <Button layoutX="21.0" layoutY="223.0" mnemonicParsing="false" text="Back to login" />
                </children>
             </AnchorPane>
-            <Text layoutX="265.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Login">
+            <Text layoutX="76.0" layoutY="26.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Registration: Enter the information below">
                <font>
                   <Font name="Comic Sans MS" size="24.0" />
                </font>
