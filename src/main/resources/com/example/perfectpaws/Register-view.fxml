@@ -20,7 +20,7 @@
       </AnchorPane>
       <AnchorPane layoutX="27.0" layoutY="137.0" prefHeight="307.0" prefWidth="601.0" style="-fx-background-color: #90EE90;">
          <children>
-            <AnchorPane layoutX="7.0" layoutY="32.0" prefHeight="265.0" prefWidth="587.0" style="-fx-background-color: #FFFFF0;">
+            <AnchorPane layoutX="7.0" layoutY="36.0" prefHeight="261.0" prefWidth="587.0" style="-fx-background-color: #FFFFF0;">
                <children>
                   <Text layoutX="11.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="First Name">
                      <font>
@@ -57,8 +57,8 @@
                         <Font size="13.0" />
                      </font>
                   </Text>
-                  <Button layoutX="475.0" layoutY="223.0" mnemonicParsing="false" onMouseClicked="#createAccount" text="Create Account" />
-                  <Button layoutX="21.0" layoutY="223.0" mnemonicParsing="false" text="Back to login" />
+                  <Button fx:id="createAccountButton" layoutX="475.0" layoutY="223.0" mnemonicParsing="false" onAction="#createAccount" onMouseClicked="#createAccount" text="Create Account" />
+                  <Button fx:id="backButton" layoutX="21.0" layoutY="223.0" mnemonicParsing="false" onAction="#backToLogin" text="Back to login" />
                </children>
             </AnchorPane>
             <Text layoutX="76.0" layoutY="26.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Registration: Enter the information below">

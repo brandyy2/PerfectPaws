@@ -27,13 +27,13 @@
                         <Font name="Comic Sans MS" size="20.0" />
                      </font>
                   </Text>
-                  <Button layoutX="249.0" layoutY="157.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="27.0" prefWidth="86.0" text="Log in" />
+                  <Button fx:id="loginButton" layoutX="249.0" layoutY="157.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#login" prefHeight="27.0" prefWidth="86.0" text="Log in" />
                   <CheckBox fx:id="checkBox" layoutX="234.0" layoutY="123.0" mnemonicParsing="false" onAction="#showPassword" text="Show Password">
                      <font>
                         <Font size="11.0" />
                      </font>
                   </CheckBox>
-                  <Hyperlink layoutX="153.0" layoutY="192.0" text="Sign up here!">
+                  <Hyperlink fx:id="registerLink" layoutX="153.0" layoutY="192.0" onAction="#register" text="Sign up here!">
                      <font>
                         <Font name="Comic Sans MS" size="15.0" />
                      </font>

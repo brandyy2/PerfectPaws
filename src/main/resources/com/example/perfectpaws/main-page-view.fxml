@@ -76,7 +76,7 @@
                                     <Font name="Kristen ITC" size="15.0" />
                                  </font>
                               </Text>
-                              <Button fx:id="addToCartButton" layoutX="112.0" layoutY="184.0" mnemonicParsing="false" onMouseClicked="#addToCart" text="Add to cart" />
+                              <Button fx:id="addToCartButton" layoutX="112.0" layoutY="184.0" mnemonicParsing="false" onAction="#addToCart" text="Add to cart" />
                            </children>
                         </AnchorPane>
                         <AnchorPane layoutX="6.0" layoutY="36.0" prefHeight="125.0" prefWidth="188.0" style="-fx-background-color: #E6E6FA;" />
