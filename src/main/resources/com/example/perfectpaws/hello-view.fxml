@@ -38,7 +38,7 @@
                         <Font name="Comic Sans MS" size="15.0" />
                      </font>
                   </Hyperlink>
-                  <Hyperlink layoutX="271.0" layoutY="182.0" text="Admin Login">
+                  <Hyperlink fx:id="adminLoginLink" layoutX="271.0" layoutY="182.0" onAction="#adminLogin" text="Admin Login">
                      <font>
                         <Font size="10.0" />
                      </font>

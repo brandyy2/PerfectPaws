@@ -11,6 +11,9 @@ import java.io.IOException;
 
 public class HelloController {
     @FXML
+    private Hyperlink adminLoginLink;
+
+    @FXML
     private Button loginButton;
     @FXML
     private Hyperlink registerLink;
@@ -57,6 +60,16 @@ public class HelloController {
             passwordHidden.setVisible(true);
             passwordVisable.setVisible(false);
 
+
+    }
+    @FXML
+    void adminLogin(ActionEvent event) throws Exception{
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("admin-login-view.fxml"));
+        Scene scene = new Scene(fxmlLoader.load(), 635,550 );
+        Stage stage = new Stage();
+        stage.setTitle("Admin Login Page");
+        stage.setScene(scene);
+        stage.show();
 
     }
 

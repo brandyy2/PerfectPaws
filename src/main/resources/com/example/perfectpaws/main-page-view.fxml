@@ -7,7 +7,6 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-
 <AnchorPane minHeight="481.0" minWidth="648.0" prefHeight="608.0" prefWidth="731.0" style="-fx-background-color: #FFA07A;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.perfectpaws.MainPageController">
    <children>
       <AnchorPane layoutX="196.0" layoutY="36.0" prefHeight="62.0" prefWidth="276.0" style="-fx-background-color: #FFFFF0; -fx-border-color: #90EE90; -fx-border-width: 4;">
@@ -131,6 +130,11 @@
                         <AnchorPane layoutX="6.0" layoutY="36.0" prefHeight="125.0" prefWidth="188.0" style="-fx-background-color: #E6E6FA;" />
                      </children>
                   </AnchorPane>
+                  <Hyperlink fx:id="viewSalesLink" layoutX="630.0" layoutY="19.0" text="View Sales">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Hyperlink>
                </children>
             </AnchorPane>
             <Text layoutX="7.0" layoutY="21.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Find the perfect pet (Highest - Lowest)">
