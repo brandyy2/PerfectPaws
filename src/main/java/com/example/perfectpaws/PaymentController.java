@@ -35,7 +35,13 @@ public class PaymentController implements Initializable {
     }
 
     @FXML
-    void reviewOrder(ActionEvent event) {
+    void reviewOrder(ActionEvent event) throws Exception{
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("order-details-view.fxml"));
+        Scene scene = new Scene(fxmlLoader.load(), 795,620 );
+        Stage stage = new Stage();
+        stage.setTitle("Order Details Page");
+        stage.setScene(scene);
+        stage.show();
 
     }
 
