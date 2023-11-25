@@ -44,8 +44,13 @@ public class MainPageController {
     }
 
     @FXML
-    void viewCart(ActionEvent event) {
-
+    void viewCart(ActionEvent event) throws Exception {
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("cart-view.fxml"));
+        Scene scene = new Scene(fxmlLoader.load(), 730,610 );
+        Stage stage = new Stage();
+        stage.setTitle("Cart Page");
+        stage.setScene(scene);
+        stage.show();
     }
 
 }
