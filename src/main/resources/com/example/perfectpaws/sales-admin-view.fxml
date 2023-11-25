@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="671.0" prefWidth="833.0" style="-fx-background-color: #FFA07A;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.perfectpaws.SalesAdminController">
+   <children>
+      <AnchorPane layoutX="47.0" layoutY="162.0" prefHeight="469.0" prefWidth="766.0" style="-fx-background-color: #90EE90; -fx-border-color: #32CD32;">
+         <children>
+            <AnchorPane layoutX="14.0" layoutY="36.0" prefHeight="415.0" prefWidth="732.0" style="-fx-border-color: #FFA07A; -fx-background-color: #FFFFF0;">
+               <children>
+                  <Line endX="617.0" endY="1.52587890625E-5" layoutX="115.0" layoutY="45.0" startX="-106.66666412353516" startY="1.52587890625E-5" />
+                  <Text layoutX="14.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User ID">
+                     <font>
+                        <Font name="System Bold" size="17.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="90.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Inventory ID">
+                     <font>
+                        <Font name="System Bold" size="17.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="350.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date Sold">
+                     <font>
+                        <Font name="System Bold" size="17.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="214.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Shipping Type">
+                     <font>
+                        <Font name="System Bold" size="17.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="539.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tax (6%)">
+                     <font>
+                        <Font name="System Bold" size="17.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="451.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Subtotal">
+                     <font>
+                        <Font name="System Bold" size="17.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="630.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total Spent">
+                     <font>
+                        <Font name="System Bold" size="17.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+            <Text layoutX="25.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sales Report">
+               <font>
+                  <Font name="Comic Sans MS" size="20.0" />
+               </font>
+            </Text>
+            <Button fx:id="goToMainMenuButton" layoutX="620.0" layoutY="8.0" mnemonicParsing="false" onAction="#goToMainMenu" text="Return to Main Menu" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="260.0" layoutY="31.0" prefHeight="62.0" prefWidth="276.0" style="-fx-background-color: #FFFFF0; -fx-border-color: #90EE90; -fx-border-width: 4;">
+         <children>
+            <Text layoutX="55.0" layoutY="43.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Perfect Paws">
+               <font>
+                  <Font name="Kristen ITC" size="25.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <Text layoutX="234.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The perfect place to adopt a pet!">
+         <font>
+            <Font name="Kristen ITC" size="20.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
