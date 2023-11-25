@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="619.0" prefWidth="806.0" style="-fx-background-color: #FFA07A;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.perfectpaws.ConfirmationController">
+   <children>
+      <AnchorPane layoutX="73.0" layoutY="161.0" prefHeight="443.0" prefWidth="682.0" style="-fx-background-color: #90EE90; -fx-border-color: #32CD32;">
+         <children>
+            <AnchorPane layoutX="13.0" layoutY="11.0" prefHeight="420.0" prefWidth="654.0" style="-fx-border-color: #FFA07A; -fx-background-color: #FFFFF0;">
+               <children>
+                  <AnchorPane layoutX="285.0" layoutY="62.0" prefHeight="209.0" prefWidth="339.0" style="-fx-border-color: #FFA07A;">
+                     <children>
+                        <Text layoutX="14.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Order Review">
+                           <font>
+                              <Font name="Kristen ITC" size="15.0" />
+                           </font>
+                        </Text>
+                        <Line endX="203.00003051757812" layoutX="112.0" layoutY="62.0" startX="-100.0" stroke="#746e6e" />
+                        <Text layoutX="11.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name:">
+                           <font>
+                              <Font size="13.0" />
+                           </font>
+                        </Text>
+                        <Line endX="203.00003051757812" layoutX="112.0" layoutY="96.0" startX="-100.0" stroke="#746e6e" />
+                        <Text layoutX="11.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ship to:">
+                           <font>
+                              <Font size="13.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="14.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Method:">
+                           <font>
+                              <Font size="13.0" />
+                           </font>
+                        </Text>
+                        <Line endX="203.00003051757812" layoutX="113.0" layoutY="129.0" startX="-100.0" stroke="#746e6e" />
+                        <Line endX="203.00003051757812" layoutX="112.0" layoutY="163.0" startX="-100.0" stroke="#746e6e" />
+                        <Text layoutX="12.0" layoutY="158.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Payment:">
+                           <font>
+                              <Font size="13.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </AnchorPane>
+                  <Text layoutX="455.0" layoutY="299.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Subtotal:">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="454.0" layoutY="316.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tax (6%):">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="455.0" layoutY="335.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Shipping:">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="455.0" layoutY="371.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Order Total:">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Text>
+                  <Button fx:id="goToMainMenuButton" layoutX="509.0" layoutY="387.0" mnemonicParsing="false" onAction="#goToMainMenu" prefHeight="25.0" prefWidth="131.0" text="Return to Main Menu" />
+                  <Text layoutX="14.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Your furry friend is on the way!">
+                     <font>
+                        <Font name="Kristen ITC" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="117.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Your Pet(s)">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="260.0" layoutY="31.0" prefHeight="62.0" prefWidth="276.0" style="-fx-background-color: #FFFFF0; -fx-border-color: #90EE90; -fx-border-width: 4;">
+         <children>
+            <Text layoutX="55.0" layoutY="43.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Perfect Paws">
+               <font>
+                  <Font name="Kristen ITC" size="25.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <Text layoutX="234.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The perfect place to adopt a pet!">
+         <font>
+            <Font name="Kristen ITC" size="20.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
