@@ -53,7 +53,13 @@ public class OrderDetailsController {
     }
 
     @FXML
-    void placeOrder(ActionEvent event) {
+    void placeOrder(ActionEvent event) throws Exception{
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("confirmation-view.fxml"));
+        Scene scene = new Scene(fxmlLoader.load(), 795,620 );
+        Stage stage = new Stage();
+        stage.setTitle(" Confirmation Page");
+        stage.setScene(scene);
+        stage.show();
 
     }
 
