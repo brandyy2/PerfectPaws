@@ -27,6 +27,8 @@ public class MainPageController {
     void addToCart(ActionEvent event) {
 
     }
+    @FXML
+    private Hyperlink viewSalesLink;
 
     @FXML
     void logOut(ActionEvent event) throws Exception {
@@ -51,6 +53,16 @@ public class MainPageController {
         stage.setTitle("Cart Page");
         stage.setScene(scene);
         stage.show();
+    }
+    @FXML
+    void viewSales(ActionEvent event) throws Exception{
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("sales-admin-view.fxml"));
+        Scene scene = new Scene(fxmlLoader.load(), 870,640 );
+        Stage stage = new Stage();
+        stage.setTitle("Sales Page (Admin Only)");
+        stage.setScene(scene);
+        stage.show();
+
     }
 
 }
