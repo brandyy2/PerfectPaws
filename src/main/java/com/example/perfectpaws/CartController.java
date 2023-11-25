@@ -21,7 +21,12 @@ public class CartController {
 
     @FXML
     void checkout(ActionEvent event) throws Exception{
-
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("checkout-view.fxml"));
+        Scene scene = new Scene(fxmlLoader.load(), 795,620 );
+        Stage stage = new Stage();
+        stage.setTitle("Checkout Page");
+        stage.setScene(scene);
+        stage.show();
     }
 
     @FXML
