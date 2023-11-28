@@ -6,7 +6,6 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-
 <AnchorPane prefHeight="481.0" prefWidth="648.0" style="-fx-background-color: #FFA07A;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.perfectpaws.RegisterController">
    <children>
       <AnchorPane layoutX="186.0" layoutY="26.0" prefHeight="62.0" prefWidth="276.0" style="-fx-background-color: #FFFFF0; -fx-border-color: #90EE90; -fx-border-width: 4;">
@@ -22,37 +21,31 @@
          <children>
             <AnchorPane layoutX="7.0" layoutY="36.0" prefHeight="261.0" prefWidth="587.0" style="-fx-background-color: #FFFFF0;">
                <children>
-                  <Text layoutX="11.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="First Name">
+                  <Text layoutX="64.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="First Name">
                      <font>
                         <Font name="Comic Sans MS" size="20.0" />
                      </font>
                   </Text>
-                  <Text layoutX="14.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Create Username">
+                  <Text layoutX="339.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Create Username">
                      <font>
                         <Font name="Comic Sans MS" size="20.0" />
                      </font>
                   </Text>
-                  <Text layoutX="266.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Create Password">
+                  <Text layoutX="339.0" layoutY="110.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Create Password">
                      <font>
                         <Font name="Comic Sans MS" size="20.0" />
                      </font>
                   </Text>
-                  <Text layoutX="14.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Last Name">
+                  <Text layoutX="64.0" layoutY="109.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Last Name">
                      <font>
                         <Font name="Comic Sans MS" size="20.0" />
                      </font>
                   </Text>
-                  <TextField fx:id="firstName" layoutX="14.0" layoutY="38.0" prefHeight="25.0" prefWidth="183.0" promptText="First Name" />
-                  <TextField fx:id="lastName" layoutX="14.0" layoutY="106.0" prefHeight="25.0" prefWidth="183.0" promptText="Last Name" />
-                  <TextField fx:id="createUsername" layoutX="14.0" layoutY="175.0" prefHeight="25.0" prefWidth="183.0" promptText="Username" />
-                  <TextField fx:id="createPassword" layoutX="266.0" layoutY="74.0" prefHeight="25.0" prefWidth="183.0" promptText="Password" />
-                  <TextField layoutX="266.0" layoutY="119.0" prefHeight="25.0" prefWidth="183.0" promptText="Password" />
-                  <Text layoutX="265.0" layoutY="166.0" strokeType="OUTSIDE" strokeWidth="0.0" text="• Must contain 6 characters">
-                     <font>
-                        <Font size="13.0" />
-                     </font>
-                  </Text>
-                  <Text layoutX="265.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="• Passwords must match">
+                  <TextField fx:id="firstName" layoutX="64.0" layoutY="50.0" prefHeight="25.0" prefWidth="183.0" promptText="First Name" />
+                  <TextField fx:id="lastName" layoutX="64.0" layoutY="118.0" prefHeight="25.0" prefWidth="183.0" promptText="Last Name" />
+                  <TextField fx:id="createUsername" layoutX="339.0" layoutY="50.0" prefHeight="25.0" prefWidth="183.0" promptText="Username" />
+                  <TextField fx:id="createPassword" layoutX="339.0" layoutY="120.0" prefHeight="25.0" prefWidth="183.0" promptText="Password" />
+                  <Text layoutX="341.0" layoutY="166.0" strokeType="OUTSIDE" strokeWidth="0.0" text="• Must contain 6 characters">
                      <font>
                         <Font size="13.0" />
                      </font>
