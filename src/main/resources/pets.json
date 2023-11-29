@@ -1,0 +1,98 @@
+[
+  {
+    "Name": "Max",
+    "Species": "Canine",
+    "Breed": "German Sheppard",
+    "Life Stage": "Puppy",
+    "Sex": "Male",
+    "Weight": "25 lbs",
+    "Adoption Fee": 575.99,
+    "UserID": 1,
+    "InventoryID": 1,
+    "DateSold": ""
+  },
+  {
+    "Name": "Bailey",
+    "Species": "Feline",
+    "Breed": "Sphynx",
+    "Life Stage": "Kitten",
+    "Sex": "Female",
+    "Weight": "4 lbs",
+    "Adoption Fee": 540.98,
+    "UserID": 2,
+    "InventoryID": 2,
+    "DateSold": ""
+  },
+  {
+    "Name": "Luna",
+    "Species": "Canine",
+    "Breed": "Golden Retriever",
+    "Life Stage": "Puppy",
+    "Sex": "Female",
+    "Weight": "54 lbs",
+    "Adoption Fee": "$525.97",
+    "UserID": 3,
+    "InventoryID": 3,
+    "DateSold": ""
+  },
+  {
+    "Name": "Zeus",
+    "Species": "Feline",
+    "Breed": "Abyssinian",
+    "Life Stage": "Kitten",
+    "Sex": "Male",
+    "Weight": "9 lbs",
+    "Adoption Fee": 515.96,
+    "UserID": 4,
+    "InventoryID": 4,
+    "DateSold": ""
+  },
+  {
+    "Name": "Loki",
+    "Species": "Feline",
+    "Breed": "Siamese",
+    "Life Stage": "Young Adult",
+    "Sex": "Male",
+    "Weight": "13 lbs",
+    "Adoption Fee": 500.95,
+    "UserID": 5,
+    "InventoryID": 5,
+    "DateSold": ""
+  },
+  {
+    "Name": "Aloy",
+    "Species": "Feline",
+    "Breed": "Manx",
+    "Life Stage": "Young Adult",
+    "Sex": "Female",
+    "Weight": "11 lbs",
+    "Adoption Fee": 490.94,
+    "UserID": 6,
+    "InventoryID": 6,
+    "DateSold": ""
+  },
+  {
+    "Name": "Odin",
+    "Species": "Canine",
+    "Breed": "Siberian Husky",
+    "Life Stage": "Adult",
+    "Sex": "Male",
+    "Weight": "75 lbs",
+    "Adoption Fee": 475.93,
+    "UserID": 7,
+    "InventoryID": 7,
+    "DateSold": ""
+  },
+  {
+    "Name": "Freya",
+    "Species": "Canine",
+    "Breed": "Chihuahua",
+    "Life Stage": "Puppy",
+    "Sex": "Female",
+    "Weight": "5 lbs",
+    "Adoption Fee": 450.92,
+    "UserID": 8,
+    "InventoryID": 8,
+    "DateSold": ""
+  }
+]
