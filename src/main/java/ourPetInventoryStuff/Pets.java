@@ -10,9 +10,8 @@ public class Pets {
     private String sex;
     private String weight;
     private double adoptionFee;
-    private int userID;
     private int inventoryID;
-    private String dateSold;
+
 
     public void setName(String name) {
         this.name = name;
@@ -69,12 +68,6 @@ public class Pets {
         return adoptionFee;
     }
 
-    public void setUserID(int userID) {
-        this.userID = userID;
-    }
-    public int getUserID() {
-        return userID;
-    }
     public void setInventoryID(int inventoryID) {
         this.inventoryID= inventoryID;
     }
@@ -82,12 +75,6 @@ public class Pets {
         return inventoryID;
     }
 
-    public void setDateSold(String dateSold) {
-        this.dateSold = dateSold;
-    }
-    public String getDateSold() {
-        return dateSold;
-    }
 
     @Override
     public String toString() {
@@ -99,9 +86,7 @@ public class Pets {
                 ", sex='" + sex + '\'' +
                 ", weight='" + weight + '\'' +
                 ", adoptionFee=" + adoptionFee +
-                ", userID=" + userID +
                 ", inventoryID=" + inventoryID +
-                ", dateSold='" + dateSold + '\'' +
                 '}';
     }
 }

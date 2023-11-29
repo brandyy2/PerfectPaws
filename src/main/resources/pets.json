@@ -7,9 +7,7 @@
     "sex": "Male",
     "weight": "25 lbs",
     "adoptionFee": 575.99,
-    "userID": 1,
-    "inventoryID": 1,
-    "dateSold": ""
+    "inventoryID": 1
   },
   {
     "name": "Bailey",
@@ -19,9 +17,7 @@
     "sex": "Female",
     "weight": "4 lbs",
     "adoptionFee": 540.98,
-    "userID": 2,
-    "inventoryID": 2,
-    "dateSold": ""
+    "inventoryID": 2
   },
   {
     "name": "Luna",
@@ -31,9 +27,7 @@
     "sex": "Female",
     "weight": "54 lbs",
     "adoptionFee": 525.97,
-    "userID": 3,
-    "inventoryID": 3,
-    "dateSold": ""
+    "inventoryID": 3
   },
   {
     "name": "Zeus",
@@ -43,9 +37,7 @@
     "sex": "Male",
     "weight": "9 lbs",
     "adoptionFee": 515.96,
-    "userID": 4,
-    "inventoryID": 4,
-    "dateSold": ""
+    "inventoryID": 4
   },
   {
     "name": "Loki",
@@ -55,9 +47,7 @@
     "sex": "Male",
     "weight": "13 lbs",
     "adoptionFee": 500.95,
-    "userID": 5,
-    "inventoryID": 5,
-    "dateSold": ""
+    "inventoryID": 5
   },
   {
     "name": "Aloy",
@@ -67,9 +57,7 @@
     "sex": "Female",
     "weight": "11 lbs",
     "adoptionFee": 490.94,
-    "userID": 6,
-    "inventoryID": 6,
-    "dateSold": ""
+    "inventoryID": 6
   },
   {
     "name": "Odin",
@@ -79,9 +67,7 @@
     "sex": "Male",
     "weight": "75 lbs",
     "adoptionFee": 475.93,
-    "userID": 7,
-    "inventoryID": 7,
-    "dateSold": ""
+    "inventoryID": 7
   },
   {
     "name": "Freya",
@@ -91,9 +77,7 @@
     "sex": "Female",
     "weight": "5 lbs",
     "adoptionFee": 450.92,
-    "userID": 8,
-    "inventoryID": 8,
-    "dateSold": ""
+    "inventoryID": 8
   },
   {
     "name": "Chloe",
@@ -103,9 +87,7 @@
     "sex": "Female",
     "weight": "25 lbs",
     "adoptionFee": 445.91,
-    "userID": 9,
-    "inventoryID": 9,
-    "dateSold": ""
+    "inventoryID": 9
   },
   {
     "name": "Maverick",
@@ -115,9 +97,7 @@
     "sex": "Male",
     "weight": "110 lbs",
     "adoptionFee": 440.9,
-    "userID": 10,
-    "inventoryID": 10,
-    "dateSold": ""
+    "inventoryID": 10
   },
   {
     "name": "Fluffy",
@@ -127,9 +107,7 @@
     "sex": "Female",
     "weight": "8 lbs",
     "adoptionFee": 430.89,
-    "userID": 11,
-    "inventoryID": 11,
-    "dateSold": ""
+    "inventoryID": 11
   },
   {
     "name": "Rambo",
@@ -139,9 +117,7 @@
     "sex": "Male",
     "weight": "68 lbs",
     "adoptionFee": 400.88,
-    "userID": 12,
-    "inventoryID": 12,
-    "dateSold": ""
+    "inventoryID": 12
   },
   {
     "name": "Spike",
@@ -151,9 +127,7 @@
     "sex": "Male",
     "weight": "8 lbs",
     "adoptionFee": 350.87,
-    "userID": 13,
-    "inventoryID": 13,
-    "dateSold": ""
+    "inventoryID": 13
   },
   {
     "name": "Apollo",
@@ -163,8 +137,6 @@
     "sex": "Male",
     "weight": "14 lbs",
     "adoptionFee": 250.86,
-    "userID": 14,
-    "inventoryID": 14,
-    "dateSold": ""
+    "inventoryID": 14
   }
 ]
