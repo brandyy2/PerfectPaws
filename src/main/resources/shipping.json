@@ -1,0 +1,17 @@
+[
+  {
+    "shippingTypeID": 1,
+    "name": "Ground",
+    "price": 0
+  },
+  {
+    "shippingTypeID": 2,
+    "name": "3 - Day",
+    "price": 19
+  },
+  {
+    "shippingTypeID": 3,
+    "name": "Overnight",
+    "price": 29
+  }
+]
