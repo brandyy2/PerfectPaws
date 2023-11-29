@@ -1,3 +1,5 @@
+package functionallityFiles;
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.FileWriter;
@@ -5,9 +7,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 
-import java.io.*;
 import java.nio.file.*;
-import java.util.ArrayList;
 
 public class User {
     private static int numOfUsers = 1;
@@ -92,7 +92,7 @@ public class User {
     private static Path getDefaultPath()
     {
         String home = System.getProperty("user.home");
-        return Paths.get(home).resolve("User.csv");
+        return Paths.get(home).resolve("functionallityFiles.User.csv");
     }
 
     public static void save()

@@ -59,7 +59,7 @@ public class MainPageController {
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("sales-admin-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 870,640 );
         Stage stage = new Stage();
-        stage.setTitle("Sales Page (Admin Only)");
+        stage.setTitle("functionallityFiles.Sales Page (Admin Only)");
         stage.setScene(scene);
         stage.show();
 

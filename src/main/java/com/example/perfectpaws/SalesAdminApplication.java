@@ -15,7 +15,7 @@ public class SalesAdminApplication extends Application {
     public void start(Stage stage) throws Exception{
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("sales-admin-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 870,640 );
-        stage.setTitle("Sales Page (Admin Only)");
+        stage.setTitle("functionallityFiles.Sales Page (Admin Only)");
         stage.setScene(scene);
         stage.show();
 

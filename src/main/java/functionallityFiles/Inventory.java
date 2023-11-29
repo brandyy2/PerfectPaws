@@ -1,3 +1,5 @@
+package functionallityFiles;
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.FileWriter;
@@ -79,7 +81,7 @@ public class Inventory {
     private static Path getDefaultPath()
     {
         String home = System.getProperty("user.home");
-        return Paths.get(home).resolve("Inventory.csv");
+        return Paths.get(home).resolve("functionallityFiles.Inventory.csv");
     }
 
     public static void save()
