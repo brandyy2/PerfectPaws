@@ -1,0 +1,11 @@
+[
+  {
+    "userID": 15,
+    "inventoryID": 17,
+    "shippingType": 2,
+    "dateSold": "2/14/2023",
+    "subtotal": 540.98,
+    "tax": 33.6,
+    "grandTotal": 593.58
+  }
+]
