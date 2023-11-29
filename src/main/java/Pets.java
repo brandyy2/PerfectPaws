@@ -22,9 +22,9 @@ public class Pets {
   //  @JsonProperty("UserID")
     private int userid;
    // @JsonProperty("InventoryID")
-    private int inventoryid;
+    private int inventoryId;
   //  @JsonProperty("DateSold")
-    private String datesold;
+    private String dateSold;
     public void setName(String name) {
         this.name = name;
     }
@@ -82,17 +82,17 @@ public class Pets {
     }
 
     public void setInventoryId(int inventoryId) {
-        this.inventoryid = inventoryid;
+        this.inventoryId = inventoryId;
     }
     public int getInventoryId() {
-        return inventoryid;
+        return inventoryId;
     }
 
     public void setDateSold(String dateSold) {
-        this.datesold = datesold;
+        this.dateSold = dateSold;
     }
     public String getDateSold() {
-        return datesold;
+        return dateSold;
     }
 
 }
