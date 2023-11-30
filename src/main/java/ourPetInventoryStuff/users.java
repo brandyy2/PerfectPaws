@@ -3,15 +3,24 @@ package ourPetInventoryStuff;
 public class users {
 
 
-    private int userID;
+    private int userID = 16;
     private String username;
     private String password;
     private Boolean isAdmin;
-    private String fullName;
+    private String firstName;
+    private String lastName;
     private String shippingAddress;
 
     public users() {
 
+    }
+    public users(String username, String password, Boolean isAdmin, String firstName,String lastName){
+        userID++;
+        this.username = username;
+        this.password = password;
+        this.isAdmin = isAdmin;
+        this.firstName = firstName;
+        this.lastName = lastName;
     }
     public void setUserID(int userID) {
         this.userID = userID;
@@ -40,11 +49,18 @@ public class users {
         return isAdmin;
     }
 
-    public void setFullName(String fullName) {
-        this.fullName = fullName;
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
     }
-    public String getFullName() {
-        return fullName;
+    public String getFirstName() {
+        return firstName;
+    }
+    public void setLastName(String lastName){
+        this.lastName = lastName;
+    }
+
+    public String getLastName() {
+        return lastName;
     }
 
     public void setShippingAddress(String shippingAddress) {
@@ -57,11 +73,11 @@ public class users {
     @Override
     public String toString() {
         return "users{" +
-                "userID=" + userID +
-                ", username='" + username + '\'' +
+                "username='" + username + '\'' +
                 ", password='" + password + '\'' +
                 ", isAdmin=" + isAdmin +
-                ", fullName='" + fullName + '\'' +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
                 ", shippingAddress='" + shippingAddress + '\'' +
                 '}';
     }
