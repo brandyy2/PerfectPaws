@@ -11,6 +11,10 @@ public class Pets {
     private String weight;
     private double adoptionFee;
     private int inventoryID;
+    public Pets(){
+
+    }
+
 
 
     public void setName(String name) {
