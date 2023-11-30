@@ -20,6 +20,8 @@ import ourPetInventoryStuff.Pets;
 import java.io.File;
 import java.io.IOException;
 import java.net.URL;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.ResourceBundle;
 
 public class MainPageController implements Initializable {
@@ -48,13 +50,6 @@ public class MainPageController implements Initializable {
     private TableView<Pets> myTable;
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-        ObjectMapper objectMapper = new ObjectMapper();
-        File petsJSONFile = new File("src/main/resources/pets.json");
-        //Pets[] pets = objectMapper.readValue(petsJSONFile, Pets[].class);
-        //  Button addToCart = new Button("Add to Cart");
-        //for (int i = 0; i < pets.length; i++){
-            Button addToCart = new Button("Add to Cart");
-           // addButton.setCellFactory(new PropertyValueFactory<>());
         try {
             showInventory();
         } catch (IOException e) {
@@ -86,8 +81,6 @@ public class MainPageController implements Initializable {
         System.out.println("Species: " + pets.getSpecies());
         System.out.println("Breed: " + pets.getBreed());
 
-       // species.setText(pets.getSpecies());
-      //  breed.setText(pets.getBreed());
     }
     @FXML
     void logOut(ActionEvent event) throws Exception {

@@ -56,10 +56,10 @@ public class RegisterController {
 
         @FXML
         void createAccount(ActionEvent event) throws Exception {
-            List<users> existingData = readJsonFile("src/main/resources/users.json");
+            List<users> jsonFile = readJsonFile("src/main/resources/users.json");
             users newUser = new users(createUsername.getText(), createPassword.getText(), false, firstName.getText(), lastName.getText());
-            existingData.add(newUser);
-            writeJsonFile("src/main/resources/users.json", existingData);
+            jsonFile.add(newUser);
+            writeJsonFile("src/main/resources/users.json", jsonFile);
 
             FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("main-page-view.fxml"));
             Scene scene = new Scene(fxmlLoader.load(), 730, 610);

@@ -1,9 +1,0 @@
-[ {
-  "username" : "f",
-  "password" : "f",
-  "isAdmin" : false,
-  "firstName" : "test",
-  "lastName" : "test",
-  "shippingAddress" : null,
-  "userID" : 17
-} ]

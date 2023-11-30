@@ -3,7 +3,7 @@ package ourPetInventoryStuff;
 public class users {
 
 
-    private int userID = 16;
+    private static int userID = 1;
     private String username;
     private String password;
     private Boolean isAdmin;
