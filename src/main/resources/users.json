@@ -1,34 +1,65 @@
-[
-  {
-    "userID": 1,
-    "username": "dogs22",
-    "password": "dogsAreCute1",
-    "isAdmin": false,
-    "fullName": "John Smith",
-    "shippingAddress": "3133 Wall Street, New York, NY 10005"
-  },
-  {
-    "userID": 2,
-    "username": "Manager2",
-    "password": "iLovePets7",
-    "isAdmin": true,
-    "fullName": "Cameron Morgan",
-    "shippingAddress": "4124 Victoria Avenue, Lakewood, OH 44107"
-  },
-  {
-    "userID": 3,
-    "username": "SphynxKitten",
-    "password": "Password1",
-    "isAdmin": false,
-    "fullName": "Max Caulfied",
-    "shippingAddress": "1212 NE Broadway, Portland, OR 97213"
-  },
-  {
-    "userID": 4,
-    "username": "PetLover",
-    "password": "abc123",
-    "isAdmin": false,
-    "fullName": "Ariana Jones",
-    "shippingAddress": "872 International Drive, Orlando, FL 32801"
-  }
-]
+[ {
+  "userID" : 7,
+  "username" : "fgn",
+  "password" : "23",
+  "isAdmin" : false,
+  "firstName" : "tes",
+  "lastName" : "sdf",
+  "shippingAddress" : null
+}, {
+  "userID" : 7,
+  "username" : "jog",
+  "password" : "log",
+  "isAdmin" : false,
+  "firstName" : "dog",
+  "lastName" : "pog",
+  "shippingAddress" : null
+}, {
+  "userID" : 7,
+  "username" : "iLikeDogs",
+  "password" : "Yayyy",
+  "isAdmin" : false,
+  "firstName" : "beau",
+  "lastName" : "dogs",
+  "shippingAddress" : null
+}, {
+  "userID" : 7,
+  "username" : "sdfg",
+  "password" : "sdfgh",
+  "isAdmin" : false,
+  "firstName" : "ooo",
+  "lastName" : "ffff",
+  "shippingAddress" : null
+}, {
+  "userID" : 7,
+  "username" : "",
+  "password" : "",
+  "isAdmin" : false,
+  "firstName" : "",
+  "lastName" : "",
+  "shippingAddress" : null
+}, {
+  "userID" : 7,
+  "username" : "dogs22",
+  "password" : "iLoveDogs1",
+  "isAdmin" : false,
+  "firstName" : "Max",
+  "lastName" : "Caulfield",
+  "shippingAddress" : null
+}, {
+  "userID" : 17,
+  "username" : "PetLover",
+  "password" : "abc124",
+  "isAdmin" : false,
+  "firstName" : "Ariana",
+  "lastName" : "Jones",
+  "shippingAddress" : null
+}, {
+  "userID" : 17,
+  "username" : "Cam1",
+  "password" : "cammy",
+  "isAdmin" : false,
+  "firstName" : "Cameron",
+  "lastName" : "Morgan",
+  "shippingAddress" : null
+} ]
