@@ -62,4 +62,12 @@
   "firstName" : "Cameron",
   "lastName" : "Morgan",
   "shippingAddress" : null
+}, {
+  "userID" : 17,
+  "username" : "arthurrr",
+  "password" : "weeb",
+  "isAdmin" : false,
+  "firstName" : "Arthur",
+  "lastName" : "Morgan",
+  "shippingAddress" : null
 } ]

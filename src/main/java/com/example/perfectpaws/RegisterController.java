@@ -11,10 +11,7 @@ import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 import ourPetInventoryStuff.users;
 import java.io.*;
-import java.nio.file.Files;
-import java.nio.file.StandardOpenOption;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class RegisterController {
@@ -34,14 +31,7 @@ public class RegisterController {
 
     @FXML
     private TextField lastName;
-    private final File usersJSONFile = new File("src/main/resources/users.json");
 
-   /* public void write(users user, File file) throws Exception{
-        ObjectMapper objectMapper = new ObjectMapper();
-        objectMapper.writeValue(file, user);
-        String json = objectMapper.writeValueAsString(user);
-        Files.write(usersJSONFile.toPath(), Arrays.asList(json), StandardOpenOption.APPEND);
-    } */
         private static List<users> readJsonFile(String filePath) {
             ObjectMapper objectMapper = new ObjectMapper();
             try {
